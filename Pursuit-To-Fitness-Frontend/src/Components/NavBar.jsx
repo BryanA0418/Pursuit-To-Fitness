@@ -18,7 +18,7 @@ const NavBar = ({setBodyPart}) => {
           </li>
 
           <li onClick={()=> setBodyPart("")}>
-            <Link to>All Workouts</Link></li>
+            <Link to="/workouts">All Workouts</Link></li>
 
         </ul>
       </nav>
